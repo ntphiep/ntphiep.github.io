@@ -5,19 +5,42 @@
 theme = "blowfish"
 baseURL = "https://ntphiep.github.io/"
 defaultContentLanguage = "en"
+disableLanguages = ['pt-pt']
 
 # pluralizeListTitles = "true" # hugo function useful for non-english languages, find out more in  https://gohugo.io/getting-started/configuration/#pluralizelisttitles
 
 enableRobotsTXT = true
-paginate = 20
+paginate = 18
 summaryLength = 30
 
 buildDrafts = false
 buildFuture = false
 
-
+enableEmoji = true
 
 # googleAnalytics = "G-XXXXXXXXX"
+
+[params.author]
+  name = "Nguyen Hiep"
+  image = "img/avt1.jpg"
+  headline = "Data Engineer"
+  bio = "I write code and build things for fun"
+  links = [
+    { email = "mailto:ng.hiep0822@gmail.com" },
+    { linkedin = "https://linkedin.com/in/ntphiep" },
+    { x-twitter = "https://twitter.com/ntphiep" },
+    { github = "https://github.com/ntphiep" },
+    #{ medium = "https://medium.com/@ntp" },
+    #{ hackernews = "https://news.ycombinator.com/user?id=ntp"},
+    #{ mastodon = "https://masto.ai/@ntp" },
+    { instagram = "https://instagram.com/ntp" },
+    { goodreads = "http://goodreads.com/ntp" },
+    #{ keybase = "https://keybase.io/nunocoracao" },
+    #{ reddit = "https://reddit.com/user/nunoheart" },
+    #{ telegram = "https://t.me/nunocoracao" },
+    #{ music = "/music" },
+  ]
+
 
 [imaging]
   anchor = 'Center'

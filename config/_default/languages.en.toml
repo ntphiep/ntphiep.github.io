@@ -17,9 +17,9 @@ title = "NTPH's text"
   ]
 
 [params]
-  displayName = "EN"
+  displayName = "English"
   isoCode = "en"
-  rtl = false
+  rtl = false 
   dateFormat = "2006-01-02"
   logo = "img/logo.png"
   # secondaryLogo = "img/logo.png"
