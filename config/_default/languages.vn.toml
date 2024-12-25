@@ -5,8 +5,8 @@ weight = 1
 title = ""
 
 [params]
-  displayName = "English"
-  isoCode = "en"
+  displayName = "Tiếng Việt"
+  isoCode = "vn"
   rtl = false
   dateFormat = "2 January 2006"
   logo = "img/logo2.png"
@@ -20,14 +20,13 @@ title = ""
   image = "img/avt1.jpg"
   imageQuality = 99
   headline = "Data Engineer"
-  bio = "I live in the world"
+  bio = "Mình viết linh tinh"
   links = [
     { email = "mailto:ng.hiep0822@gmail.com" },
     { linkedin = "https://linkedin.com/in/ntphiep" },
-#    { github = "https://github.com/ntphiep"},
+#   { github = "https://github.com/ntphiep"},
     { instagram = "https://instagram.com/ntphiep_" },
     { facebook = "https://facebook.com/ntphiep" },
-
     # { link = "https://link-to-some-website.com/" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
     # { apple = "https://www.apple.com" },
@@ -65,7 +64,7 @@ title = ""
     # { stack-overflow = "https://stackoverflow.com/users/userid/username" },
     # { steam = "https://steamcommunity.com/profiles/userid" },
     # { telegram = "https://t.me/username" },
-    # { threads = "https://www.threads.net/@ntphiep_" },
+    # { threads = "https://www.threads.net/@username" },
     # { tiktok = "https://tiktok.com/@username" },
     # { tumblr = "https://username.tumblr.com" },
     # { twitch = "https://twitch.tv/username" },
