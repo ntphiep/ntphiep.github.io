@@ -20,7 +20,7 @@ enableEmoji = true
 
 [pagination]
   pagerSize = 100
-
+  
 [imaging]
   anchor = 'Center'
 
