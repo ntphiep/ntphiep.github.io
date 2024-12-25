@@ -1,5 +1,5 @@
 ---
-title: "This is the demo post"
+title: "Thfast"
 summary: "We are Hiep kekeke"
 description: "We tend to overestimate the effect of a technology in the short run and underestimate the effect in the long run."
 # categories: ["Product", "Strategy", "AI", "Future"]
@@ -10,7 +10,9 @@ showauthor: true
 showTags: true
 showCategories: true
 # series: ["The New AI Hype"]
-series_order: 4
+# series_order: 4
+# showRelatedPosts: true
+showRelated: true
 seriesOpened: false
 authors:
   - ntphiep
@@ -18,7 +20,8 @@ authors:
 
 
 
-# This is the demo post
+# khong co g
+
 
 # header 1
 
@@ -27,10 +30,10 @@ hello world
 
 kekeke
 
-## header 2
+## header 2fqwfqfqw
 
 ```python
-print("hello world")
+print("hello world ddwd")
 ```
 
 ```bash

@@ -17,7 +17,7 @@ replyByEmail = false
 mainSections = ["posts"]
 # robots = ""
 
-disableImageOptimization = false
+disableImageOptimization = true
 disableTextInHeader = false
 # backgroundImageWidth = 1200
 
@@ -44,7 +44,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
 
 [homepage]
   layout = "background" # valid options: page, profile, hero, card, background, custom
-  #homepageImage = "IMAGE.jpg" # used in: hero, and card
+  # homepageImage = "IMAGE.jpg" # used in: hero, and card
   showRecent = true
   showRecentItems = 9
   showMoreLink = false
@@ -76,7 +76,7 @@ forgejoDefaultServer = "https://v8.next.forgejo.org"
   invertPagination = false
   showReadingTime = false
   showTableOfContents = true
-  showRelatedContent = false
+  showRelatedContent = true
   relatedContentLimit = 3
   showTaxonomies = true
   showTags = true
