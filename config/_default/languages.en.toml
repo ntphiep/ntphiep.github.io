@@ -2,16 +2,16 @@ disabled = false
 languageCode = "en"
 languageName = "English"
 weight = 1
-title = ""
+title = "NTPH"
 
 [params]
   displayName = "English"
   isoCode = "en"
   rtl = false
-  dateFormat = "2 January 2006"
+  dateFormat = "2006-01-02"
   logo = "img/logo2.png"
-  # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  secondaryLogo = "img/logo2.png"
+  description = "NTPH"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
@@ -76,3 +76,5 @@ title = ""
     # { ko-fi = "https://ko-fi.com/username" },
     # { codeberg = "https://codeberg.org/username"},
   ]
+
+
