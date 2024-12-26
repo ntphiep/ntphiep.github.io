@@ -1,6 +1,6 @@
 ---
-title: "About me"
-date: 2024-12-25T00:00:00Z
+title: "About"
+date: 2022-06-13T20:55:37+01:00
 draft: false
 
 showDate : false
@@ -19,26 +19,10 @@ showViews: false
 showLikes: false
 showAuthor: true
 layoutBackgroundHeaderSpace: false
-showRelated: false
-# showRelatedPosts: false
+
 ---
 
-deptrai vl
 
-# 1212
+## Hello
 
-## lafmaf
-
-
-### afmafas
-
-
-
-```python
-print("hello world")
-```
-
-```bash
-echo "hello world"
-```
-
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
