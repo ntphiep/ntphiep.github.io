@@ -47,7 +47,7 @@ I'm someone who doesn't know how to describe myself 🤣, maybe with each person
 
 Regarding this blog, I mainly created it with the simple purpose of recording and sharing some of my knowledge and experiences, sometimes translating blogs into other languages ​​(I know a little Spanish, but my English is not really good), sometimes I write random things too.
 
-I'm not a professional writer, so I'm not sure how to write, but I'm trying my best to share my thoughts and experiences with you.
+I'm not a professional writer, so I'm not sure how to write attractively, but I'm trying my best to share my thoughts and experiences with you.
 
 ## Contact
 
