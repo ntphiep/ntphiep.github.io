@@ -32,7 +32,7 @@ layoutBackgroundHeaderSpace: false
 
 Hola, soy Hiep.
 
-Si estas leyendo esto, tal vex debería presentarme un poco. Soy estudiante de Ciencias de la Computación y también trabajo en el campo de la Tecnología de la Información, mi especialidad es la Ingeniería de Datos.
+Si estas leyendo esto, tal vez debería presentarme un poco. Soy estudiante de Ciencias de la Computación y también trabajo en el campo de la Tecnología de la Información, mi especialidad es la Ingeniería de Datos.
 
 ## Yo
 

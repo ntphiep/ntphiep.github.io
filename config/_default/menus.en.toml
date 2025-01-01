@@ -16,7 +16,7 @@
  weight = 10
 
 [[main]]
- name = "Resume 🧷"
+ name = "Résumé  🧷"
  url = "https://drive.google.com/file/d/1SoMXF5-JRfzpoyKcZHW1Ot1krk9-w1Xz/view?usp=sharing"
  pageRef = "resume"
  weight = 20
