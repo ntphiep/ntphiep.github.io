@@ -1,7 +1,7 @@
 disabled = false
 languageCode = "es"
 languageName = "Español"
-weight = 1
+weight = 2
 title = "NTPH"
 
 [params]

@@ -1,14 +1,14 @@
 disabled = false
-languageCode = "vn"
+languageCode = "vi"
 languageName = "Tiếng Việt"
-weight = 1
+weight = 3
 title = "NTPH"
 
 [params]
   displayName = "Tiếng Việt"
-  isoCode = "vn"
+  isoCode = "vi"
   rtl = false
-  dateFormat = "02/01/2006"
+  dateFormat = "2006-01-02"
   logo = "img/vip.png"
   secondaryLogo = "img/vip.png"
   # description = "NTPH"
