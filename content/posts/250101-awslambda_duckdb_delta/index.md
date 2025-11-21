@@ -1,7 +1,7 @@
 ---
 title: "Sử dụng AWS Lambda cùng Delta Lake và DuckDB"
 weight: 1
-draft: true
+draft: false
 description: "Code Delta Lake và DuckDB trong Lambda?"
 tags: ["Tech", "Data", "AWS"]
 # series: ["Documentation"]
