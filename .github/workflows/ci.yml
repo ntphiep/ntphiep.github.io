@@ -1,0 +1,90 @@
+name: 🚀 Deploy Hugo site to Pages
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**.md'
+      - '.gitignore'
+  workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-${{ github.ref }}
+  cancel-in-progress: false
+
+defaults:
+  run:
+    shell: bash
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.151.0
+    steps:
+      - name: 📥 Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: 📦 Cache Hugo
+        uses: actions/cache@v4
+        with:
+          path: |
+            ${{ runner.temp }}/hugo.deb
+          key: hugo-${{ env.HUGO_VERSION }}
+
+      - name: ⚡ Install Hugo
+        run: |
+          if [ ! -f ${{ runner.temp }}/hugo.deb ]; then
+            wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          fi
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+
+      - name: 🎨 Install Dart Sass
+        run: sudo snap install dart-sass
+
+      - name: 📄 Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: 📦 Cache Hugo resources
+        uses: actions/cache@v4
+        with:
+          path: resources
+          key: hugo-resources-${{ hashFiles('**/*') }}
+          restore-keys: |
+            hugo-resources-
+
+      - name: 🔨 Build with Hugo
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
+        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+
+      - name: 📤 Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ./public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.event_name != 'pull_request'
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 🚀 Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
