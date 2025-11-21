@@ -9,9 +9,9 @@ title = "NTPH"
   isoCode = "es"
   rtl = false
   dateFormat = "2006-01-02"
-  logo = "img/logo2.png"
-  secondaryLogo = "img/logo2.png"
-  description = "NTPH"
+  logo = "img/vip.png"
+  secondaryLogo = "img/vip.png"
+  # description = "NTPH"
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [params.author]
@@ -27,6 +27,7 @@ title = "NTPH"
 #    { github = "https://github.com/ntphiep"},
     { instagram = "https://instagram.com/ntphiep_" },
     { facebook = "https://facebook.com/ntphiep" },
+    { x-twitter = "https://twitter.com/_ntphiep" },
 
     # { link = "https://link-to-some-website.com/" },
     # { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },
