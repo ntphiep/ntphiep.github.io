@@ -1,3 +1,3 @@
 load_theme:
 	cd themes
-	git clome https://github.com/nunocoracao/blowfish.git
+	git clone https://github.com/nunocoracao/blowfish.git
